@@ -19,7 +19,7 @@ That is a required minimum step necessary to complete this assignment. But to re
 This does make the "clear: both" property that we did first redundant, so if you do include the clearfix, you can delete the clear: both from the div rule block. However this is not a requirement. 
 
 - Notice that you can now add space between your sets of image+text by adding a margin-bottom to the div rule block. This wasn't possible without the clearfix class. 
-- To "search" for the correctly formatted "clearfix" class, open a new browser tab and do a search for "CSS Clearfix" - you will come up with several, all variations on the same theme. I personally like the simplicity of the W3Schools one
+- To "search" for the correctly formatted "clearfix" class, open a new browser tab and do a search for "CSS Clearfix" - you will come up with several, all variations on the same theme. I personally like the simplicity of the W3Schools one.
 
 Clearfix:
 <pre>.clearfix::after {
