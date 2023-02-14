@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- tab title -->
+	<title>Float Practice</title>
+
+    <!-- shiv -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+
+	<style>
+		/* the styles for the elements */
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		html {
+			background-color: black;
+			background-image: url(images/background.png);
+		}
+
+		body {
+			font-family: Calibri, Arial, Helvetica, sans-serif;
+			font-size: 100%;
+			max-width: 1200px;
+			margin: 0 auto;
+			background-color: white;
+			border: 1px solid green;
+		}
+
+		/* the styles for the header */
+		header h1 {
+			padding: 1em;
+			font-size: 200%;
+			font-variant: small-caps;
+			background-color: green;
+			color: white;
+			text-align: center;
+		}
+
+		/* the styles for the main content */
+		img {
+			max-width: 400px;
+			width: 100%;
+			padding: 1em;
+		}
+
+		.pimgLeft {
+			float: left;
+		}
+
+		.pimgRight {
+			float: right;
+		}
+
+		p {
+			margin: 1em;
+		}
+
+		div {
+			clear: both;
+			margin-bottom: 50px;
+		}
+
+		/* the styles for the footer */
+		footer {
+			clear: both;
+			padding: 2em;
+			font-size: 80%;
+			font-variant: small-caps;
+			background-color: green;
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Float Practice</h1>
+	</header>
+
+	<main>
+		<div class="clearfix">
+			<img class="pimgLeft" src="images/1.jpg">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum laoreet augue, eu pretium libero mattis id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi justo libero, dictum nec massa vel, facilisis congue massa. Morbi ex tellus, fermentum convallis nibh at, eleifend pharetra quam. Pellentesque in gravida ex. Suspendisse ut commodo arcu. Mauris eleifend congue ante, in luctus urna porttitor non. Etiam vitae purus id augue rhoncus accumsan in eget risus. Pellentesque pharetra dictum enim, et varius turpis cursus ornare. Nam nunc nibh, laoreet eu consequat nec, facilisis nec arcu. Suspendisse luctus ante sit amet nulla tempus, iaculis feugiat mi pretium. Quisque vitae consectetur purus, sit amet venenatis lectus. Fusce et velit efficitur, cursus nibh eget, tempor lectus.
+			</p>
+		</div>
+
+		<div class="clearfix">
+			<img class="pimgRight" src="images/2.jpg">
+			<p>
+				In sit amet libero tristique, tempus massa et, volutpat nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer dui velit, rhoncus a pharetra ac, blandit vitae quam. Integer pellentesque auctor eros, ut vehicula ex vehicula a. Etiam blandit mollis elit sit amet iaculis. Aliquam fringilla, dolor convallis fringilla consequat, nisi enim malesuada mauris, vitae malesuada tellus arcu sit amet lorem. Vestibulum pellentesque bibendum accumsan. Aenean eget fringilla nibh, a molestie metus. Quisque luctus in ipsum aliquam finibus. Nullam mollis in tellus id pellentesque. Fusce dui magna, vestibulum hendrerit felis quis, sollicitudin finibus est. Nunc ante magna, aliquam nec dui non, suscipit molestie ligula. Ut aliquet purus at mi sodales bibendum sed nec orci. Etiam et est elementum ante tincidunt suscipit et vitae lacus.
+			</p>
+		</div>
+		
+		<div class="clearfix">
+			<img class="pimgLeft" src="images/3.jpg">
+			<p>
+				Nunc luctus eu tortor at dictum. Nunc sed sapien non libero fringilla rhoncus et vitae nisl. Vivamus dignissim libero nec quam ullamcorper faucibus. Morbi sit amet rhoncus diam, ac dapibus mauris. Vivamus varius elit sit amet pretium commodo. In vitae nisl viverra, placerat urna quis, sagittis ligula. Nullam tortor ipsum, porttitor ullamcorper lacinia eu, bibendum laoreet augue. Nunc ut dui vitae tortor molestie ornare vel ullamcorper erat.
+			</p>
+		</div>
+
+		<div class="clearfix">
+			<img class="pimgRight" src="images/4.jpg">
+			<p>
+				Ut a nisi feugiat odio malesuada consequat. Sed et dignissim sem, et hendrerit est. Nullam eu cursus neque. Etiam sit amet luctus dui, vitae interdum diam. Vestibulum non ante rhoncus, malesuada nulla dapibus, tincidunt tortor. Nullam mattis magna tincidunt vulputate molestie. Nullam vehicula arcu quis ex venenatis suscipit ac eget nisl. Ut vitae mattis ligula. Cras scelerisque consectetur ante, accumsan suscipit augue. Phasellus eu ultrices lacus. Donec vitae imperdiet arcu. Aenean nec nisi fermentum, mattis sapien vel, malesuada neque. Nunc iaculis dignissim odio blandit posuere. Fusce ut viverra odio. Phasellus molestie dolor ut lorem feugiat congue ut in nibh.
+			</p>
+		</div>
+
+		<div class="clearfix">
+			<p class="pimgLeft"><img src="images/5.jpg"></p>
+			<p>
+				Proin ut ultricies velit. Mauris nisi massa, mollis ut porttitor id, scelerisque sed lectus. Vivamus in orci tellus. Nam bibendum, lectus in pulvinar lacinia, ex enim gravida elit, sed tempus sem enim nec nisi. Maecenas at egestas lacus. Fusce nulla urna, luctus a accumsan in, mattis quis ante. Phasellus aliquam, leo eget hendrerit condimentum, ipsum diam eleifend massa, sed fringilla sem arcu id turpis. Nam dictum at tortor fringilla sagittis. Nullam porttitor molestie sapien a efficitur. Pellentesque gravida congue urna, vel posuere felis. Phasellus rutrum non turpis quis blandit. Maecenas gravida imperdiet felis et tincidunt. Ut blandit gravida facilisis.
+			</p>
+		</div>
+
+		<div class="clearfix">
+			<img class="pimgRight" src="images/6.jpg">
+			<p>
+				Proin ut ultricies velit. Mauris nisi massa, mollis ut porttitor id, scelerisque sed lectus. Vivamus in orci tellus. Nam bibendum, lectus in pulvinar lacinia, ex enim gravida elit, sed tempus sem enim nec nisi. Maecenas at egestas lacus. Fusce nulla urna, luctus a accumsan in, mattis quis ante. Phasellus aliquam, leo eget hendrerit condimentum, ipsum diam eleifend massa, sed fringilla sem arcu id turpis. Nam dictum at tortor fringilla sagittis. Nullam porttitor molestie sapien a efficitur. Pellentesque gravida congue urna, vel posuere felis. Phasellus rutrum non turpis quis blandit. Maecenas gravida imperdiet felis et tincidunt. Ut blandit gravida facilisis.
+			</p>
+		</div>
+	</main>
+
+	<footer>
+		&copy; Copyright Michael Roberts Productions
+	</footer>
+
+</body>
+</html>
