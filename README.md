@@ -5,7 +5,7 @@ Live Site: https://mroberts70.github.io/floatpractice/
 
 Notes:
 
-- Notice in the main, how each set of image + corresponding text is enclosed in <div> tags. Also notice that the opening <div> tag has a class="clearfix"
+- Notice in the main, how each set of image + corresponding text is enclosed in <pre><div></pre> tags. Also notice that the opening <pre><div></pre> tag has a class="clearfix"
 - Notice in the <style> section, found within the <head> of the index.html, there is a rule block for the "div" tag that clears both floats:
 
 div {
