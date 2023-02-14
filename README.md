@@ -9,11 +9,11 @@ Notes:
 - Notice in the < style > section, found within the < head > of the index.html, there is a rule block for the "div" tag that clears both floats:
 
 
-div {
 
+div {
      clear: both;
-     
 }
+
 
 
 That is a required minimum step necessary to complete this assignment. But to really do it right, you should also search for and copy/paste a correctly formatted "clearfix" class into your code. You can then add this class name to the opening div tags in your html:
