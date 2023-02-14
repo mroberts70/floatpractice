@@ -14,7 +14,7 @@ Notes:
 
 That is a required minimum step necessary to complete this assignment. But to really do it right, you should also search for and copy/paste a correctly formatted "clearfix" class into your code. You can then add this class name to the opening div tags in your html:
 
-<pre><div class="clearfix"></pre>
+<pre>< div class="clearfix"></pre>
 
 This does make the "clear: both" property that we did first redundant, so if you do include the clearfix, you can delete the clear: both from the div rule block. However this is not a requirement. 
 
