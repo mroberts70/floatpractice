@@ -10,9 +10,9 @@ Notes:
 
 
 
-div {
-     clear: both;
-}
+     div {
+          clear: both;
+     }
 
 
 
